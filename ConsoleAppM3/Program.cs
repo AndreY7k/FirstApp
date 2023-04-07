@@ -33,6 +33,25 @@
             Console.WriteLine(byte.MaxValue);
             Console.WriteLine(double.MinValue);
             Console.WriteLine(decimal.MaxValue);
+
+            //Еще один способ вывод в строку переменной
+            
+            String MyName1 = "Andrei";
+            Console.WriteLine("Hello, World!");
+            Console.WriteLine();
+            Console.WriteLine($"My name is {MyName1}");
+
+            Console.ReadKey();
+
+            //Cпособ вывода в строку нескольких переменных
+
+            String MyName2 = "Andrei";
+            double MyAge2 = 23;
+            Console.WriteLine("Hello, World!");
+            Console.WriteLine();
+            Console.WriteLine("My name is {0}, I’m {1} years old", MyName2,MyAge2);
+            
+            Console.ReadKey();
         }
     }
 }
@@ -46,4 +65,10 @@ enum DaysOfWeek : byte
     Friday,
     Saturday,
     Sunday
+}
+enum Semaphore
+{
+    Red = 100,
+    Yellow = 200,
+    Green = 300
 }
