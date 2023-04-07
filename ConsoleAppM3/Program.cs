@@ -11,7 +11,7 @@
             Console.WriteLine("\t Привет, мир");
             Console.WriteLine("\t Мне 27 лет");
             Console.WriteLine("\t My name is \n Andrei");
-            Console.WriteLine("Ⅲ");
+            Console.WriteLine("\x23");
             Console.ReadKey();
         }
     }
