@@ -34,16 +34,16 @@
             Console.WriteLine(double.MinValue);
             Console.WriteLine(decimal.MaxValue);
         }
-            //Перечесления ключевое слово - Enum.
-            enum DaysOfWeek : byte
-        {
-            Monday = 1,
-            Tuesday,
-            Wednesday,
-            Thursday,
-            Friday,
-            Saturday,
-            Sunday
-        }
     }
+}
+//Перечесления ключевое слово - Enum.
+enum DaysOfWeek : byte
+{
+    Monday = 1,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday,
+    Sunday
 }
