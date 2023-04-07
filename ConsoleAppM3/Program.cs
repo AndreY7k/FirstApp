@@ -24,15 +24,26 @@
             Console.WriteLine("My shoe size is " + MyShoeSize);
 
             Console.ReadKey();
-            
+
             //Можно обратиться к самому типу и получить из него это значение.
             //Например:
-            
+
             Console.WriteLine("IntMin {0} ", int.MinValue);
             Console.WriteLine("IntMax {0} ", int.MaxValue);
             Console.WriteLine(byte.MaxValue);
             Console.WriteLine(double.MinValue);
             Console.WriteLine(decimal.MaxValue);
+        }
+            //Перечесления ключевое слово - Enum.
+            enum DaysOfWeek : byte
+        {
+            Monday = 1,
+            Tuesday,
+            Wednesday,
+            Thursday,
+            Friday,
+            Saturday,
+            Sunday
         }
     }
 }
