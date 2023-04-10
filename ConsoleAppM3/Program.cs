@@ -64,7 +64,7 @@
             var name3 = Console.ReadLine();
             Console.WriteLine("Сколько вам лет?");
             var age3 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"Ваше имя {name3} и вам {age3} лет");
+            Console.WriteLine($"Ваше имя {name3} и вам {age3} года");
             Console.WriteLine("Когда вы родились?");
             var birthdate = Console.ReadLine();
             Console.WriteLine("Вы родились {0}", birthdate);
@@ -73,7 +73,7 @@
         }
     }
 }
-//Перечесления ключевое слово - Enum.
+//Перечесления (Ключевое слово - Enum.)
 enum DaysOfWeek : byte
 {
     Monday = 1,
