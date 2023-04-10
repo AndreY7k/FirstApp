@@ -52,6 +52,24 @@
             Console.WriteLine("My name is {0}, I’m {1} years old", MyName2,MyAge2);
             
             Console.ReadKey();
+
+            Console.WriteLine("Enter your age: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Your age is {age}");
+            Console.ReadKey();
+
+            //Анкета по заданию - "Финальная практика модуля «Анкетируем пользователей»" 
+
+            Console.WriteLine("Как вас зовут?");
+            var name3 = Console.ReadLine();
+            Console.WriteLine("Сколько вам лет?");
+            var age3 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Ваше имя {name3} и вам {age3} лет");
+            Console.WriteLine("Когда вы родились?");
+            var birthdate = Console.ReadLine();
+            Console.WriteLine("Вы родились {0}", birthdate);
+
+            Console.ReadKey();
         }
     }
 }
